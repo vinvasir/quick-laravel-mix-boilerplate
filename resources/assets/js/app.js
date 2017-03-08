@@ -7,6 +7,7 @@
 
 
 import Notification from './components/Notification.vue';
+import PostForm from './components/PostForm.vue';
 
 new Vue({
     el: '#app',
@@ -14,6 +15,7 @@ new Vue({
     	firstData: ""
     },
     components: {
-    	Notification
+    	Notification,
+    	PostForm
     }
 });	
